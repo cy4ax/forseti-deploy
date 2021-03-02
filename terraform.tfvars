@@ -1,10 +1,10 @@
-project_id = "forsetisecurity-304317"
-org_id     = "359859335853"
-domain     = "mindgeek.com"
-region     = "us-east4"
+project_id = ""
+org_id     = ""
+domain     = ""
+region     = ""
 
-network         = "netforseti"
-subnetwork      = "netforseti"
+network         = ""
+subnetwork      = ""
 network_project = ""
 
 gsuite_admin_email      = ""
