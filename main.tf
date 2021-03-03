@@ -63,7 +63,7 @@ module "forseti-install" {
   forseti_email_sender    = var.forseti_email_sender
   forseti_version         = var.forseti_version
   gsuite_admin_email      = var.gsuite_admin_email
-  sendgrid_api_key        = var.sendgrid_api_key
+  #sendgrid_api_key        = var.sendgrid_api_key
 
   # GCS
   storage_bucket_location = var.region
