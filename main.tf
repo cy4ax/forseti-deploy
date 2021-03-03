@@ -38,8 +38,8 @@ module "cloud-nat" {
   ]
 }
 
-module "forseti-install-simple" {
-  source = "../../"
+module "forseti-install" {
+  #source = "../../"
 
   # General
   project_id = var.project_id
