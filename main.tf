@@ -39,7 +39,7 @@ module "cloud-nat" {
 }
 
 module "forseti-install" {
-  #source = "../../"
+  source = "../terraform-google-modules/forseti/google"
 
   # General
   project_id = var.project_id
